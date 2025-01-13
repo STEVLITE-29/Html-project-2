@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta information for character encoding and responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Title of the page (appears in browser tab) -->
     <title>Document</title>
 </head>
 <body>
+    <!-- Start of the form, sending data via POST method -->
     <form action="submit" method="post">
+        
+        <!-- Name input field with a label -->
         <label for="name">Please input your name:</label>
         <input type="text" id="name" name="name" placeholder="Your name" />
-        <br>
+        <br> <!-- Line break for spacing -->
+        
+        <!-- Email input field with a label, with a required attribute -->
         <label for="email">Please input your E-mail:</label>
         <input type="email" id="email" name="email" placeholder="loremipsum@gmail.com" required />
-        <br>
+        <br> <!-- Line break for spacing -->
+        
+        <!-- Date input field with a label, with a required attribute -->
         <label for="date"> Please select a date:</label>
         <input type="date" id="date" name="date" required />
-        <br>
+        <br> <!-- Line break for spacing -->
+        
+        <!-- Submit button for the form -->
         <input type="submit" value="submit">
     </form>
 
+    <!-- Thank you message after the form submission -->
     <p>Thank you for making your reservation, we will contact you soon!</p>
+    
+    <!-- Footer with copyright notice -->
     <footer>
         2024 &copy; All rights reserved.
     </footer>
